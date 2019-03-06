@@ -5,7 +5,7 @@
 //  Created by Samuel Schuffler on 3/6/19.
 //  Copyright © 2019 John Hersey High School. All rights reserved.
 //
-
+// Sam is Super Cool
 import UIKit
 
 class ViewController: UIViewController {
