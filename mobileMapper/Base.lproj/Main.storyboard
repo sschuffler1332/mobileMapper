@@ -31,9 +31,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0Sz-Rd-EIp"/>
+                    <navigationItem key="navigationItem" id="0Sz-Rd-EIp">
+                        <barButtonItem key="leftBarButtonItem" title="Zoom" id="9pp-5D-Nm7"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="qrk-Yd-fT0"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="FKB-lb-O7L" id="9s1-my-HS7"/>
+                        <outlet property="whenSearchButtonPressed" destination="qrk-Yd-fT0" id="QHL-US-qz0"/>
+                        <outlet property="whenZoomButtonPressed" destination="9pp-5D-Nm7" id="3hR-fg-jVZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
